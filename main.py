@@ -4,6 +4,7 @@ import requests
 import json
 import random
 from replit import db
+from keep_alive import keep_alive
 
 
 client = discord.Client()
@@ -91,4 +92,5 @@ async def on_message(message):
     else:
       await message.channel.send("Bot will not respond.")
 
+keep_alive()
 client.run(os.getenv("TOKEN"))
