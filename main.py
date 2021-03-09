@@ -6,7 +6,7 @@ import random
 from replit import db
 from keep_alive import keep_alive
 
-
+#test push
 client = discord.Client()
 
 sad_words = ["sad", "depressed", "unhappy", "angry", "miserable", "depressing"]
